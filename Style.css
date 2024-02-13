@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swamp");
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:"poppins", sans-serif;
+}
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: url(file:///C:/Users/sa-zu/AppData/Local/Temp/Rar$DRa13060.37076/Start%20Project%20Login%20Form%20HTML%20CSS/imagem-4k.jpg) no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.wrapper {
+    width: 425px;
+    background-color:transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px) ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    border-radius: 10px;
+    padding: 25px 35px;
+}
+
+.wrapper h2 {
+    font-size: 34px;
+    text-align: center;
+}
+
+.wrapper h3 {
+font-size: 30px;
+text-align: center;
+opacity: 60%;
+
+}
+.wrapper h5{
+    text-align: center;
+    
+}
+.container {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
